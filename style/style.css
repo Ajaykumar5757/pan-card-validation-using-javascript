@@ -1,0 +1,17 @@
+.section{
+    max-width:700px;
+    margin:140px auto;
+    background-color: rgb(68, 170, 221);
+    padding:20px 40px 40px;
+    color:white;
+}
+
+button{
+    display:block;
+    margin-top:20px;
+    padding:5px 10px;
+}
+
+input{
+    padding:5px 20px;
+}
