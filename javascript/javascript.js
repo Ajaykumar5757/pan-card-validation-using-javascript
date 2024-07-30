@@ -1,7 +1,7 @@
 function verify(){
     let msg = document.getElementById("pan").value;
     let reg = /^([A-Z]){5}([0-9]){4}([A-Z]){1}$/;
-    if(msg.lengthy==10){
+    if(msg.length==10){
 
         if(reg.test(msg)){
             alert("Verification successfull");
